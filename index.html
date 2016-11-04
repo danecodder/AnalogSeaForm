@@ -13,7 +13,7 @@
 	<main>
 		<div class="container">
 				<h1 class="title">Sign Up</h1>
-				<form>
+				<form action="/signup/">
 					<label for="email">Email
 						<input class="userInput" placeholder="foo@bar.com" type="email" name="email">
 					</label>
@@ -21,10 +21,10 @@
 						<input class="userInput" placeholder="1234passw0rd" type="password" name="password">
 					</label>
 					<button class="button" type="submit">Sign Up</button>
-					<a href="#" class="link">Forgot Password?</a>
+					<a href="/forgot-password/new" class="link">Forgot Password?</a>
 				</form>
 		</div>
-		<p class="accountLogin">Already Have an Account? <a href="" class="accountLoginLink">Log in</a></p>	
+		<p class="accountLogin">Already Have an Account? <a href="/login" class="accountLoginLink">Log in</a></p>	
 	</main>
 </body>
 </html>

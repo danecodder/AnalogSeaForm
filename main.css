@@ -50,6 +50,10 @@ body {
 	font-size: 20px;
 }
 
+.button:hover {
+  background: #22dd22;
+}
+
 .link {
 	color: gray;
 	display: block;

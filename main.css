@@ -55,3 +55,12 @@ body {
 	padding: 10px;
 	text-align: center;
 }
+
+.accountLogin {
+	text-align: center;
+	color: white;
+}
+
+.accountLoginLink {
+	color: white;
+}
